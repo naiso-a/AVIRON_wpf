@@ -1,0 +1,5 @@
+{
+  "ConnectionBDD": {
+    "BDDURL": "mysql://tardygrade:epsiepsi@localhost:3306/testbdd?serverVersion=10.6.16-MariaDB&charset=utf8mb4"
+  }
+}

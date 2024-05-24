@@ -1,0 +1,17 @@
+﻿<Window x:Class="Aviron_wpf.PageStat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        Title="Statistiques" Height="450" Width="800">
+    <Grid>
+        <lvc:CartesianChart Loaded="CartesianChart_Loaded">
+            <lvc:CartesianChart.Series>
+                <lvc:ColumnSeries Title="Ventes" Values="{Binding Ventes}" />
+            </lvc:CartesianChart.Series>
+        </lvc:CartesianChart>
+
+
+
+
+    </Grid>
+</Window>
